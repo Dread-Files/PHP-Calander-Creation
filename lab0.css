@@ -1,0 +1,45 @@
+#container{ /* Outer container */
+	display: flex;
+	border: 3px solid red;
+}
+#leftSide { /* Left sidebar menu */
+	width: 15%;
+	padding-left: 5px;
+}
+#rightSide{ /* right side includes header, center area, and footer */
+	border: 1px solid blue;
+	width: 100%;
+}
+#header { /* Header section */
+	display: flex;
+	border: 5px solid green;
+}
+#headerLeft{ /* left header section */
+	border: 1px solid green;
+	width: 50%;
+	text-align: center;
+}
+#headerRight{ /* right header section */
+	border: 1px solid green;
+	width: 50%; text-align: center;
+}
+#contentMain { /* center container */
+	display: flex;
+	border: 5px solid blue; 
+}
+#contentLeft { /* left side of the center area */
+	border: 1px solid green;
+	width: 50%;
+}
+#contentRight { /* right side of the center area */
+	border: 1px solid cyan;
+	width: 50%; text-align: center;
+}
+#headShot { /* headshot image */
+	margin: 0 auto; 
+	}
+#footer { /* footer area */
+	border: 1px solid blue;
+	text-align: center;
+	font-size: small;
+}

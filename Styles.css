@@ -1,0 +1,43 @@
+.title {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: chartreuse;
+}
+.student-input {
+    text-align: center;
+}
+.days, .form {
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: space-around;
+}
+select {
+    size: 15;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+input {
+    margin: 5px;
+}
+p {
+    text-align: center;
+}
+.times {
+    border: 2px solid white;
+    width: 20%;
+    text-align: center;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.date {
+    border: 1px solid gray;
+    padding: 3px;
+    width: 14%;
+}
